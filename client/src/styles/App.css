@@ -1,0 +1,164 @@
+.App {
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.Background {
+  width: 50%;
+  background-color: #66dac7;
+}
+
+.Background2 {
+  width: 50%;
+  background-color: #2e4158;
+}
+
+.Box {
+  padding: 
+  10% 10%;
+  font-size: 200%;
+}
+
+.formView {
+  width: 50%;
+  background-color: #2e4158;
+  padding: 25px 80px;
+  overflow: auto;
+}
+
+.PageSwitcher {
+  justify-content: flex-end;
+  display: flex;
+  margin-bottom: 10%;
+}
+
+.PageSwitch {
+  background-color: #4c5d72;
+  color: #9da6b1;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 0.9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.PageSwitchActive {
+  background-color: #5ed0c0;
+  color: white;
+}
+
+.PageSwitch:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.PageSwitch:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.FormCenter {
+  margin-bottom: 100px;
+}
+
+.Title {
+  color:white;
+  font-weight: 500;
+  margin-bottom: 50px;
+  font-size: 200%;
+}
+
+.TitleLink {
+  color: #707c8b;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.TitleLink:first-child {
+  margin-left: 0;
+}
+
+.TitleLinkUnderline {
+  color: white;
+  border-bottom: 1px solid #199087;
+  transition: 1s;
+}
+
+.FieldContainer {
+  margin-bottom: 40px;
+}
+
+.FieldLabel {
+  display: block;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top:10px;
+}
+.FieldInput {
+  background-color: transparent;
+  width: 85%;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 300;
+  font-size: 1em;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #445366;
+}
+
+.FieldInput::placeholder {
+  color: #616e7f;
+}
+
+.FieldButton {
+  background-color: #52c4b9;
+  outline: none;
+  color: white;
+  border: none;
+  font-size: 0.8em;
+  font-weight: 500;
+  padding: 15px 70px;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.FieldButton:active {
+  background-color: #445366;
+}
+
+.identityButton {
+  position: relative;
+  margin-top: 20px;
+  padding-right: 10%;
+  font-size: 0.9em;
+}
+
+.normalFontWeight {
+  font-weight: normal;
+}
+
+.section {
+  display: block;
+  box-shadow: 0px 0px 5px grey;
+  padding: 10px;
+  margin: 15px;
+  background-color: #2e4158;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: #66dac7;
+}
